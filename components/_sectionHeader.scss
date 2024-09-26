@@ -1,0 +1,18 @@
+.section{
+    width: 100%;
+    &__header{
+width:100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 5rem;
+
+
+&-para{
+    color:$text ;
+}
+&-h2{
+    color: $secondary_color-2;
+}
+    }
+}

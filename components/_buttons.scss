@@ -1,0 +1,24 @@
+.btn{
+    text-decoration: none;
+    padding: 1.3rem 2.2rem;
+
+        &-outline{
+            border: 1px solid $primary_color-1;
+            border-radius: 10rem;
+            color: $primary_color-1;
+            font-weight: 650;
+
+            .fa-regular{
+              font-size: 2rem;
+             text-align: center;
+             margin-left: 8px;
+            }
+}
+&-bg{
+    background-color: $primary_color-1;
+    color: $white;
+    border-radius: 10rem;
+    margin-left: 1.5rem;
+    border: 2px solid $primary_color-1;
+}
+}
